@@ -24,29 +24,79 @@ li {
 }
 
 .main {
-  background-color: #bdf7f1;
-  height: 600px;
+  padding: 100px 80px;
+}
+
+.copy-container h1 {
+  font-size: 140px;
+}
+
+.copy-container h2 {
+  font-size: 60px;
+}
+
+.copy-container span {
+  color: #ff4a4a;
+}
+
+.contents {
+  height: 500px;
+  margin-top: 100px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.contents-item {
+  float: left;
+  margin-right: 40px;
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.contact-form {
+  padding-top: 100px;
+}
+
+/* inputとtextareaのCSSを指定してください */
+input,textarea{
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+/* contact-submitのCSSを指定してください */
+.contact-submit {
+  background-color: dee7ec;
+  color: #889eab;
 }
 
 .footer {
-  /* background-colorを#2f5167に変更してください */
-  background-color: #ceccf3;
-  
-  /* colorを#fffにしてください */
-  
-  
-  /* heightを120pxに変更してください */
-  height: 270px;
-  /* 上下左右のpaddingを40pxにしてください */
-  
-  
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
 }
 
-/* footer-logoのfont-sizeとfloatを指定してください */
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
 
+.footer-list {
+  float: right;
+}
 
-/* footer-listのfloatを指定してください */
-
-
-/* footer-listの中のli要素のpadding-bottomを指定してください */
-
+.footer-list li {
+  padding-bottom: 20px;
+}
